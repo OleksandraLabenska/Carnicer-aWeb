@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-xl bg-dark navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item bg-dark">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item bg-dark">
+                        <a class="nav-link" href="formulario.html">Formulario</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <article class="container-formulario">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-xl-4">
+                        <img src="facebook.png" alt=""> 
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-xl-4">
+                        <img src="google-plus.png" alt="">
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-xl-4">
+                        <img src="placeholder.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <form>
+
+                <div class="container container-form">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-xl-6">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control"  placeholder="Introduzca su email">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-xl-6">
+                            <div class="form-group">
+                                <label for="exampleInputTelefono">Telefono</label>
+                                <input type="text" class="form-control"  placeholder="Introduzca su numero de telefono(opcional)">
+                            </div> 
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 col-xl-12">
+                            <div class="form-group">
+                                <label for="exampleInputMensaje">Mensaje</label>
+                                <textarea class="form-control"  rows="3"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-dark">ENVIAR</button>
+
+            </form>
+
+        </article>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-xl-6">
+                        <p>Calle Bomba 16. 50010 Saratoga. Tfno: 666 999 666.</p> 
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-xl-6">
+                        <p>Fax: 999 666 999. Email: email(at)hola.com</p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+    </body>
+</html>
